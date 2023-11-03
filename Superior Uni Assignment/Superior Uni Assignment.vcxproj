@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5A539CF9-09EE-4519-8605-B64F68939647}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SuperiorUniAssignment</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Problem_03-J.cpp" />
+    <ClCompile Include="Problem_03-A.cpp" />
+    <ClCompile Include="Problem_03-B.cpp" />
+    <ClCompile Include="Problem_03-C.cpp" />
+    <ClCompile Include="Problem_03-D.cpp" />
+    <ClCompile Include="Problem_03-E.cpp" />
+    <ClCompile Include="Problem_03-F.cpp" />
+    <ClCompile Include="Problem_03-G.cpp" />
+    <ClCompile Include="Problem_03-H.cpp" />
+    <ClCompile Include="Problem_03-I.cpp" />
+    <ClCompile Include="Problem_03-K.cpp" />
+    <ClCompile Include="Problem_03-L.cpp" />
+    <ClCompile Include="Problem_04-A.cpp" />
+    <ClCompile Include="Problem_04-B.cpp" />
+    <ClCompile Include="Problem_04-C.cpp" />
+    <ClCompile Include="Problem_04-D.cpp" />
+    <ClCompile Include="Problem_04-E.cpp" />
+    <ClCompile Include="Problem_04-F.cpp" />
+    <ClCompile Include="Problem_04-G.cpp" />
+    <ClCompile Include="Problem_04-H.cpp" />
+    <ClCompile Include="Problem_04-I.cpp" />
+    <ClCompile Include="Problem_04-J.cpp" />
+    <ClCompile Include="Problem_04-K.cpp" />
+    <ClCompile Include="Problem_04-L.cpp" />
+    <ClCompile Include="Problem_05.cpp" />
+    <ClCompile Include="Problem_06.cpp" />
+    <ClCompile Include="Problem_07.cpp" />
+    <ClCompile Include="Problem_08.cpp" />
+    <ClCompile Include="Problem_09.cpp" />
+    <ClCompile Include="Problem_10.cpp" />
+    <ClCompile Include="Problem_11.cpp" />
+    <ClCompile Include="Problem_12.cpp" />
+    <ClCompile Include="Problem_13.cpp" />
+    <ClCompile Include="Problem_14.cpp" />
+    <ClCompile Include="Problem_15.cpp" />
+    <ClCompile Include="Problem_16.cpp" />
+    <ClCompile Include="Problem_17.cpp" />
+    <ClCompile Include="Problem_18.cpp" />
+    <ClCompile Include="Problem_19.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
